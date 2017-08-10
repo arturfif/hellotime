@@ -1,0 +1,136 @@
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 06:05.000, locale = en
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 06:05.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = morning
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Good morning, World!
+
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 10:56.000, locale = en
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 10:56.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = day
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Good day, World!
+
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 22:32.000, locale = en
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 22:32.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = evening
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Good evening, World!
+
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 03:12.000, locale = en
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 03:12.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = night
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Good night, World!
+
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 09:00.001
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = day
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 18:59.999
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = day
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 19:00.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = evening
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 19:00.001
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = evening
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 22:59.999
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = evening
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 23:00.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = night
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 23:00.001
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = night
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 06:05.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = morning
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 10:56.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = day
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 22:32.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = evening
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 03:12.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = night
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 05:59.999
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = night
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 06:00.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = morning
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 06:00.001
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = morning
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 08:59.999
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = morning
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 09:00.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = day
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 06:05.000, locale = ru
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 06:05.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = morning
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Доброе утро, Мир!
+
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 10:56.000, locale = ru
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 10:56.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = day
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Добрый день, Мир!
+
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 22:32.000, locale = ru
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 22:32.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = evening
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Добрый вечер, Мир!
+
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Input: time = 03:12.000, locale = ru
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Input: time = 03:12.000
+авг 11, 2017 12:11:44 AM core.Hello getTimeKey
+INFO: Output: key = night
+авг 11, 2017 12:11:44 AM core.Hello getHelloText
+INFO: Output: Доброй ночи, Мир!
+

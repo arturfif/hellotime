@@ -13,8 +13,9 @@ import java.util.logging.SimpleFormatter;
 
 public class Hello {
 
+    private static final String OUTPUT_KEY_TEXT = "Output: key = ";
+    private static final String INPUT_TIME_TEXT = "Input: time = ";
     private static Logger LOG = Logger.getLogger(Hello.class.getName());
-    private static FileHandler fileHandler;
 
     private static final String MORNING = "morning";
     private static final String DAY = "day";
@@ -47,7 +48,7 @@ public class Hello {
         }
 
         try {
-            fileHandler = new FileHandler("log.txt");
+            FileHandler fileHandler = new FileHandler("log.txt");
             fileHandler.setFormatter(new SimpleFormatter());
             LOG.addHandler(fileHandler);
         } catch (IOException e) {
@@ -58,6 +59,7 @@ public class Hello {
     private Hello() {}
 
     static String getTimeKey(Date time) {
+        LOG.info(INPUT_TIME_TEXT + new SimpleDateFormat("HH:mm.SSS").format(time));
         Date parsedTime;
 
         try {
@@ -67,22 +69,22 @@ public class Hello {
         }
 
         if ((parsedTime.after(MORNING_TIME) || parsedTime.compareTo(MORNING_TIME) == 0) && parsedTime.before(DAY_TIME)) {
-            LOG.info("Time key is " + MORNING);
+            LOG.info(OUTPUT_KEY_TEXT + MORNING);
             return MORNING;
         }
 
         if ((parsedTime.after(DAY_TIME) || parsedTime.compareTo(DAY_TIME) == 0) && parsedTime.before(EVENING_TIME)) {
-            LOG.info("Time key is " + DAY);
+            LOG.info(OUTPUT_KEY_TEXT + DAY);
             return DAY;
         }
 
         if ((parsedTime.after(EVENING_TIME) || parsedTime.compareTo(EVENING_TIME) == 0) && parsedTime.before(NIGHT_TIME)) {
-            LOG.info("Time key is " + EVENING);
+            LOG.info(OUTPUT_KEY_TEXT + EVENING);
             return EVENING;
         }
 
         if ((parsedTime.after(NIGHT_TIME) || parsedTime.compareTo(NIGHT_TIME) == 0) || parsedTime.before(MORNING_TIME)) {
-            LOG.info("Time key is " + NIGHT);
+            LOG.info(OUTPUT_KEY_TEXT + NIGHT);
             return NIGHT;
         }
 
@@ -90,9 +92,9 @@ public class Hello {
     }
 
     public static String getHelloText(Date time, Locale locale) {
-        LOG.info("Input: time = " + new SimpleDateFormat("HH:mm.SSS").format(time) + ", locale = " + locale.toLanguageTag());
+        LOG.info(INPUT_TIME_TEXT + new SimpleDateFormat("HH:mm.SSS").format(time) + ", locale = " + locale.toLanguageTag());
         String text = ResourceBundle.getBundle(BUNDLE_NAME, locale).getString(getTimeKey(time));
-        LOG.info("Output: " + text);
+        LOG.info("Output: " + text + '\n');
         return text;
     }
 
