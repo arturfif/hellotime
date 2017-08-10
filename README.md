@@ -1,0 +1,1 @@
+https://travis-ci.org/arturfif/hellotime.svg?branch=master
